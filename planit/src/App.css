@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.navbar-collapse{
+  background-color:white;
+  display: inline-flex;
+  
+  
+  position:sticky;
+  top: 0px;
+}
+
+.nav-link{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#basic-navbar-nav{
+  left:0px;
+  position:absolute;
+}
+
+#navbar-right{
+  right:0px;
+  position:absolute;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

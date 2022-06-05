@@ -52,6 +52,10 @@
   position:absolute;
 }
 
+.home{
+  background-color: antiquewhite;
+}
+
 .homepage{
   color:green;
   font-family: Arial, Helvetica, sans-serif;

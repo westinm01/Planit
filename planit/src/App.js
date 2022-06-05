@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import Home from "./components/Home"
@@ -9,8 +9,14 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Home />
-      <header className="App-header">
+      
+      <BrowserRouter>
+        <Routes>
+          <Route path = '/' element = {<Home />}/>
+          <Route path = '/Home' element = {<Home />}/>
+        </Routes>
+    </BrowserRouter>
+      {/* <header className="App-header">
       
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,7 +30,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

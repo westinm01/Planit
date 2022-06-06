@@ -1,14 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
+import Home from "./components/Home"
+
+import MakePlanit from "./components/MakePlanitPage";
+import Profile from "./components/ProfilePage";
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <header className="App-header">
+      <NavBar />     
+      <BrowserRouter>
+        <Routes>
+          <Route path = '/' element = {<Home />}/>
+          <Route path = '/Home' element = {<Home />}/>
+        </Routes>
+    </BrowserRouter>
+      {/* <header className="App-header">
+
       
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,7 +34,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

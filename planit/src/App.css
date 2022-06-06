@@ -52,6 +52,22 @@
   position:absolute;
 }
 
+.home{
+  background-color: antiquewhite;
+}
+
+.homepage{
+  color:green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+}
+
+.slogan{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 650;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -5,11 +5,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home"
 
+import MakePlanit from "./components/MakePlanitPage";
+import Profile from "./components/ProfilePage";
+
+
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      
+      <NavBar />     
       <BrowserRouter>
         <Routes>
           <Route path = '/' element = {<Home />}/>
@@ -17,6 +20,7 @@ function App() {
         </Routes>
     </BrowserRouter>
       {/* <header className="App-header">
+
       
         <img src={logo} className="App-logo" alt="logo" />
         <p>

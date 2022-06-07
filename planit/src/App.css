@@ -146,3 +146,19 @@ p.date-style {
   font-size: 15px;
   margin: 0px;
 }
+
+div.profilepage {
+  text-align: center;
+  position: relative;
+  border: 3px solid black;
+  background-color: #dff7ff;
+  padding: 20px;
+}
+
+#friendslist {
+  text-align: left;
+}
+
+#statsbar {
+  text-align: left;
+}

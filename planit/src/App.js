@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import MakePlanit from "./components/MakePlanitPage";
@@ -11,6 +11,11 @@ function App() {
     <div className="App">
       <NavBar />
       <br></br>
+      <BrowserRouter>
+        <Routes>
+          <Route path = '/makeAPlanit' element = {<MakePlanit />}/>
+        </Routes>
+      </BrowserRouter>
 
       <header className="App-header">
       

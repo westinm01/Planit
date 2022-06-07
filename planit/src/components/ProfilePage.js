@@ -4,11 +4,11 @@ function Profile() {
 
     return(
         <div>
-            <h1> User's Profile Page </h1>
+            <h1 > User's Profile Page </h1>
             <p>(insert profile picture)</p>
             <h3>Previous Plan-its</h3>
             <p>
-                <ul>
+                <ul id="planitlist">
                     <li>Plan-it 1</li>
                     <li>Plan-it 2</li>
                     <li>Plan-it 3</li>

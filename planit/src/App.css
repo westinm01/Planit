@@ -60,3 +60,38 @@
     transform: rotate(360deg);
   }
 }
+
+.makeAPlanItPage {
+  background-color: azure;
+}
+
+div.makeplanit {
+  text-align: center;
+  position: relative;
+  width: 600px;
+  height: 500px;
+  border: 3px solid black;
+  background-color: #dff7ff;
+  padding: 20px;
+  
+}
+
+p {
+  padding: 5px;
+}
+#planitlist {
+  
+  text-align: left;
+}
+
+#title {
+  text-align: center;
+}
+
+
+
+
+
+
+
+

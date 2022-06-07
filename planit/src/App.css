@@ -157,8 +157,35 @@ div.profilepage {
 
 #friendslist {
   text-align: left;
+  display: grid;
+  list-style: circle;
+  margin: 0px 10px;
 }
 
 #statsbar {
   text-align: left;
+  display: grid;
+  list-style: circle;
+  margin: 0px 10px;
+}
+
+#secondtitleprofile {
+  text-align: left;
+  display: block;
+}
+
+#planitlist {
+  text-align: left;
+  display: grid;
+  list-style: circle;
+  margin: 0px 10px;
+}
+
+.blankprofile {
+  height: 200px;
+  width: 200px;
+}
+
+p ul li {
+  padding: 3px;
 }

@@ -14,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path = '/makeAPlanit' element = {<MakePlanit />}/>
+          <Route path = '/profile' element = {<Profile />}/>
         </Routes>
       </BrowserRouter>
 

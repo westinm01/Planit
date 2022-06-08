@@ -7,7 +7,7 @@ import Home from "./components/Home"
 
 import MakePlanit from "./components/MakePlanitPage";
 import Profile from "./components/ProfilePage";
-
+import Loginform from "./components/Loginform";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path = '/Home' element = {<Home />}/>
           <Route path = '/makeAPlanit' element = {<MakePlanit />}/>
           <Route path = '/profile' element = {<Profile />}/>
+          <Route path = "/login" element = {<Loginform />}/>
         </Routes>
     </BrowserRouter>
       {/* <header className="App-header">

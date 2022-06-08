@@ -12,14 +12,18 @@ import Profile from "./components/ProfilePage";
 function App() {
   return (
     <div className="App">
+
       <NavBar />     
       <BrowserRouter>
         <Routes>
           <Route path = '/' element = {<Home />}/>
           <Route path = '/Home' element = {<Home />}/>
+          <Route path = '/makeAPlanit' element = {<MakePlanit />}/>
+          <Route path = '/profile' element = {<Profile />}/>
         </Routes>
     </BrowserRouter>
       {/* <header className="App-header">
+
 
       
         <img src={logo} className="App-logo" alt="logo" />

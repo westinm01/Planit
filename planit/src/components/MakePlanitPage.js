@@ -1,7 +1,6 @@
 import React from "react";
 
 
-
 function MakePlanit() {
     return(
         <div class="makeplanit">
@@ -63,7 +62,11 @@ function MakePlanit() {
                     <option value="VST">Vietnam Standard Time</option> 
                 </select>
             </p>
-            <p>Invite Plan-it users <br />
+            <p>Invite Plan-it users 
+                <p id="optional">
+                    *Optional*
+                </p>
+                <br />
                 <input type="text" class="users" placeholder="User's name(s)"></input>
             </p>
             <p>

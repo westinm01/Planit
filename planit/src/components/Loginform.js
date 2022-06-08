@@ -1,15 +1,19 @@
-import React, { UseState } from 'react';
-import './Loginform.css';
+import React, { useState } from 'react';
+import '../Loginform.css';
+import NavBar from "./NavBar";
 
-function Loginform({Login, error}){
-    const [details, setDetails] = UseState({name: "",email: "",password: ""});
+const Loginform = ({Login, error}) =>{
+    const [details, setDetails] = useState({name: "",email: "",password: ""});
     
     const submitHandler = e =>{
         e.preventDeafault();
         Login(details);
     }
     return(
+        <div className ="loginPage">
+        <NavBar />
         <form onSubmit={submitHandler}>
+            
             <div className='form-inner'>
                 <h2>Login Form</h2>
                 {(error !== "")?(<div className="error"></div>):""}
@@ -31,6 +35,7 @@ function Loginform({Login, error}){
                 <input type='submit' value='Login' />
             </div>
         </form>
-
+        </div>
     )
-}export default Loginform;
+};
+export default Loginform;

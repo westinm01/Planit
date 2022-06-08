@@ -52,6 +52,22 @@
   position:absolute;
 }
 
+.home{
+  background-color: antiquewhite;
+}
+
+.homepage{
+  color:green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+}
+
+.slogan{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 650;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -59,4 +75,140 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.makeAPlanItPage {
+  background-color: azure;
+}
+
+div.makeplanit {
+  text-align: center;
+  position: relative;
+  border: 3px solid black;
+  background-color: #dff7ff;
+  padding: 20px;
+  
+}
+
+p {
+  padding: 5px;
+  font-size: 17px;
+}
+#planitlist {
+  
+  text-align: left;
+}
+
+#title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+input[type=text] {
+  padding: 7px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: grey;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
+}
+
+input[type=date] {
+  padding: 7px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: grey;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
+}
+
+input[type=time] {
+  padding: 7px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: grey;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
+}
+
+input[type=submit] {
+  padding: 7px;
+  margin: 25px 0px 0px 0px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: grey;
+}
+
+.summary-makeplanit {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.timezone {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: grey;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
+}
+
+.users {
+  height: 100px;
+}
+
+p.date-style {
+  font-size: 15px;
+  margin: 0px;
+}
+
+div.profilepage {
+  text-align: center;
+  position: relative;
+  border: 3px solid black;
+  background-color: #dff7ff;
+  padding: 20px;
+}
+
+#friendslist {
+  text-align: left;
+  display: grid;
+  list-style: circle;
+  margin: 0px 10px;
+}
+
+#statsbar {
+  text-align: left;
+  display: grid;
+  list-style: circle;
+  margin: 0px 10px;
+}
+
+#secondtitleprofile {
+  text-align: left;
+  display: block;
+}
+
+#planitlist {
+  text-align: left;
+  display: grid;
+  list-style: circle;
+  margin: 0px 10px;
+}
+
+.blankprofile {
+  height: 200px;
+  width: 200px;
+}
+
+p ul li {
+  padding: 3px;
+}
+
+#optional {
+  color: grey;
+  opacity: 0.75;
+  display: inline;
+  font-size: 15px;
 }

@@ -1,12 +1,13 @@
 import React from "react";
-
+import NavBar from "./NavBar";
 function Profile() {
 
     return(
         <div className="profilepage">
+            <NavBar />
             <h1 id="title"> User's Profile Page </h1>
             <p>
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" class="blankprofile"  />
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" className="blankprofile"  />
             </p>
             
             <p>

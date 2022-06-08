@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Loginform.css';
+import NavBar from "./NavBar";
 
 const Loginform = ({Login, error}) =>{
     const [details, setDetails] = useState({name: "",email: "",password: ""});
@@ -9,6 +10,8 @@ const Loginform = ({Login, error}) =>{
         Login(details);
     }
     return(
+        <div className ="loginPage">
+            <NavBar />
         <form onSubmit={submitHandler}>
             <div className='form-inner'>
                 <h2>Login Form</h2>
@@ -31,7 +34,7 @@ const Loginform = ({Login, error}) =>{
                 <input type='submit' value='Login' />
             </div>
         </form>
-
+        </div>
     )
 };
 export default Loginform;

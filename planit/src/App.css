@@ -205,3 +205,10 @@ div.profilepage {
 p ul li {
   padding: 3px;
 }
+
+#optional {
+  color: grey;
+  opacity: 0.75;
+  display: inline;
+  font-size: 15px;
+}

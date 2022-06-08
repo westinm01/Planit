@@ -1,20 +1,20 @@
 import React from "react";
-
-
+import NavBar from "./NavBar";
 
 function MakePlanit() {
     return(
-        <div class="makeplanit">
+        <div className="makeplanit">
+            <NavBar />
             <h1 id="title">Make A Plan-it! </h1>
-            <p class="summary-makeplanit">It is super easy to make a plan-it. Just fill out the following fields and submit! A link will be generated for you once all fields are completed.</p>
+            <p className="summary-makeplanit">It is super easy to make a plan-it. Just fill out the following fields and submit! A link will be generated for you once all fields are completed.</p>
             <p >
                 
                 Event name:  <br />
-                <input type="text" class="event-name" placeholder="Event name"></input>
+                <input type="text" className="event-name" placeholder="Event name"></input>
             </p>
             
             <p>What dates are you using for the plan it?  <br />
-                <p class="date-style">
+                <p className="date-style">
                     Start Date: <input type="date" /> <br />
                     End Date: <input type="date" />
                 </p>
@@ -22,7 +22,7 @@ function MakePlanit() {
             </p>
 
             <p>What are the time parameters? (i.e. 9am-5pm) <br />
-                <input type="time" class="starttime" placeholder="Earliest time available"></input>
+                <input type="time" className="starttime" placeholder="Earliest time available"></input>
                 -
                 <input type="time" className="endtime" placeholder="Latest time available" />
             </p>
@@ -63,8 +63,12 @@ function MakePlanit() {
                     <option value="VST">Vietnam Standard Time</option> 
                 </select>
             </p>
-            <p>Invite Plan-it users <br />
-                <input type="text" class="users" placeholder="User's name(s)"></input>
+            <p>Invite Plan-it users 
+                <p id="optional">
+                    *Optional*
+                </p>
+                <br />
+                <input type="text" className="users" placeholder="User's name(s)"></input>
             </p>
             <p>
                 <input type="submit" value="Submit" />

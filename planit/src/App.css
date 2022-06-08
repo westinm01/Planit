@@ -86,12 +86,12 @@ div.makeplanit {
   position: relative;
   border: 3px solid black;
   background-color: #dff7ff;
-  padding: 20px;
+  padding: 40px 10px 40px 10px;
   
 }
 
 p {
-  padding: 5px;
+  padding: 15px;
   font-size: 17px;
 }
 #planitlist {
@@ -103,41 +103,47 @@ p {
   text-align: center;
   font-size: 60px;
   font-weight: 500;
+  margin: 10px;
 }
 
 input[type=text] {
-  padding: 7px;
-  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  margin: 10px 5px 5px 5px;
   border-radius: 10px;
-  border-width: 1px;
-  border-color: grey;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
 }
 
 input[type=date] {
-  padding: 7px;
+  padding: 10px;
   margin: 5px 5px 5px 5px;
   border-radius: 10px;
   border-width: 1px;
   border-color: grey;
+  background-color: white;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
 }
 
 input[type=time] {
-  padding: 7px;
-  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  margin: 10px 5px 5px 5px;
   border-radius: 10px;
-  border-width: 1px;
-  border-color: grey;
+  border-width: 5px;
+  border-color: black;
+  background-color: white;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
 }
 
 input[type=submit] {
-  padding: 7px;
+  padding: 10px;
   margin: 25px 0px 0px 0px;
   border-radius: 10px;
   border-width: 1px;
-  border-color: grey;
+  background-color: white;
+  border-color: black;
+  
 }
 
 .summary-makeplanit {
@@ -146,16 +152,17 @@ input[type=submit] {
 }
 
 .timezone {
-  padding: 7px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
   border-radius: 10px;
   border-width: 1px;
-  border-color: grey;
+  border-color: transparent;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
 }
 
 .users {
   height: 100px;
+  padding: 10px;
 }
 
 p.date-style {
@@ -212,3 +219,4 @@ p ul li {
   display: inline;
   font-size: 15px;
 }
+

@@ -3,16 +3,21 @@ import NavBar from "./NavBar";
 
 function MakePlanit() {
     return(
-        <div className="makeplanit">
+        <div>
             <NavBar />
+            <br />
+        
+        <div className="makeplanit">
+            
             <h1 id="title">Make A Plan-it! </h1>
+            <br />
             <p className="summary-makeplanit">It is super easy to make a plan-it. Just fill out the following fields and submit! A link will be generated for you once all fields are completed.</p>
             <p >
                 
                 Event name:  <br />
                 <input type="text" className="event-name" placeholder="Event name"></input>
             </p>
-            
+            <br />
             <p>What dates are you using for the plan it?  <br />
                 <p className="date-style">
                     Start Date: <input type="date" /> <br />
@@ -20,12 +25,12 @@ function MakePlanit() {
                 </p>
                 
             </p>
-
+            
             <p>What are the time parameters? (i.e. 9am-5pm) <br />
                 <input type="time" className="starttime" placeholder="Earliest time available"></input>
                 -
                 <input type="time" className="endtime" placeholder="Latest time available" />
-            </p>
+            </p> <br />
             <p>What time zone will you be using? <br />
                 <select name="timezone" className="timezone">
                     <option value="temp">--Choose Timezone--</option>
@@ -62,8 +67,8 @@ function MakePlanit() {
                     <option value="UTC">Universal Coordinated Time</option>
                     <option value="VST">Vietnam Standard Time</option> 
                 </select>
-            </p>
-            <p>Invite Plan-it users 
+            </p> <br />
+            <p>Invite Plan-it Users 
                 <p id="optional">
                     *Optional*
                 </p>
@@ -73,6 +78,7 @@ function MakePlanit() {
             <p>
                 <input type="submit" value="Submit" />
             </p>
+        </div>
         </div>
     );
 }

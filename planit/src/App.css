@@ -80,7 +80,10 @@
 .makeAPlanItPage {
   background-color: azure;
 }
-
+.login
+{
+  background-color: rgb(19, 62, 153);
+}
 div.makeplanit {
   text-align: center;
   position: relative;
@@ -212,3 +215,4 @@ p ul li {
   display: inline;
   font-size: 15px;
 }
+

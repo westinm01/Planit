@@ -10,8 +10,8 @@ const Loginform = ({Login, error}) =>{
         Login(details);
     }
     return(
-        <div className ="loginPage">
-        <NavBar />
+     <div className ="loginPage">
+            <NavBar />
         <form onSubmit={submitHandler}>
             
             <div className='form-inner'>
@@ -33,6 +33,7 @@ const Loginform = ({Login, error}) =>{
                     onChange={e => setDetails({...details, password: e.target.value})}value={details.password}/>
                 </div>
                 <input type='submit' value='Login' />
+                {/*<input type='create' value='Setup'></> */}
             </div>
         </form>
         </div>

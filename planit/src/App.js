@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -8,6 +8,7 @@ import Home from "./components/Home"
 import MakePlanit from "./components/MakePlanitPage";
 import Profile from "./components/ProfilePage";
 import Loginform from "./components/Loginform";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path = '/makeAPlanit' element = {<MakePlanit />}/>
           <Route path = '/profile' element = {<Profile />}/>
           <Route path = "/login" element = {<Loginform />}/>
+          <Route path = "/signup" element = {<SignUp />}/>
         </Routes>
     </BrowserRouter>
       {/* <header className="App-header">

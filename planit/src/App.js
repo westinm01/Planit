@@ -8,6 +8,7 @@ import Home from "./components/Home"
 import MakePlanit from "./components/MakePlanitPage";
 import Profile from "./components/ProfilePage";
 import Loginform from "./components/Loginform";
+import Schedule from './components/SchedulePage';
 
 function App() {
   return (

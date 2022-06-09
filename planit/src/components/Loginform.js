@@ -11,8 +11,9 @@ const Loginform = ({Login, error}) =>{
     }
     return(
         <div className ="loginPage">
-            <NavBar />
+        <NavBar />
         <form onSubmit={submitHandler}>
+            
             <div className='form-inner'>
                 <h2>Login Form</h2>
                 {(error !== "")?(<div className="error"></div>):""}

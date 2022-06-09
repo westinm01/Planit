@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: montserrat,sans-serif;
+    
 }
 input,button {
     appearance: none;
@@ -20,53 +21,53 @@ input,button {
     background-color: #53565A;
 }
 
-
-
 .form-center {
+    padding: 100px;
     display:flex;
     justify-content: center;
+    background-color: gradient aquamarine, plum; 
   }
-  
+
 form {
-    display: block;
     position:relative;
+    background-color: rgb(217, 126, 217);
     
 }
-form:after{
+ form:After{
     content: '';
-    display: block;
+    display: none;
     position: absolute;
-    top: -5px;
-    left:-5px;
-    right:-5px;
-    bottom:-5px;
+    
     z-index: 1;
     background-image:linear-gradient(to bottom right,#64e7fe,#7dd9f6) ;
+} 
 
-
-}
-form .form-inner{
+ form .formInner{
     position:relative;
     display: block;
-    background-color: #FFF;
-    padding: 30px;
+    background: linear-gradient( rgb(193, 249, 243), rgb(201, 239, 227), rgb(249, 190, 201) );
+    padding: 190px;
     z-index: 2;
-}
-form .form-inner h2{
+} 
+
+
+form .formInner h2{
     color: #888;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
+    
 
 
 }
-form .form-inner .form-group{
+form .formInner .formGroup{
     display: block;
     width:300px;
     margin-bottom: 15px;
+    
 
 }
-.form-inner .form-group label{
+.formInner .formGroup label{
     display: block;
     color:#53565A;
     font-size: 12px;
@@ -74,28 +75,25 @@ form .form-inner .form-group{
     transition: 0.4s;
 
 }
-.form-inner .form-group:focus-within label{
-    color:#916028;
 
-}
-form .form-inner .form-group input{
+form .formInner .formGroup input{
     display: block;
     width: 100%;
     padding: 15px 15px;
-    background-color: #65dee2;
+    background-color: white;
     border-radius: 8px;
     transition: 0.4s;
     
 }
-form .form-inner .form-group input:focus{
+form .formInner .formGroup input:focus{
     box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 }
-form .form-inner input [type="submit"]
+form .formInner input [type="submit"]
 {
     display: inline-block;
     padding: 10px,15px;
     border-radius: 8px;
-    background-image:linear-gradient(to right, #FFCE00 50%,#FFCE00 50%, #FE4880);
+    background-image:white;
     background-size: 200%;
     background-position: 0%;
     transition: 0.4s;
@@ -103,7 +101,7 @@ form .form-inner input [type="submit"]
     font-weight: 700;
     cursor: pointer;
 }
-form .form-inner input [type="submit"]:hover{
+form .formInner input [type="submit"]:hover{
 
     background-position: 100% 0%;
 }

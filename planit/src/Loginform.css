@@ -34,14 +34,14 @@ form:after{
     right:-5px;
     bottom:-5px;
     z-index: 1;
-    background-image:linear-gradient(to bottom right, rgb(143, 141, 141), #61706e,#a5d1cf);
+    background-image: linear-gradient(to bottom right,#a9edf7, #99999e,#5e5e66,#a9edf7);
     border-radius: 40px;
 
 }
 form .form-inner{
     position:relative;
     display: block;
-    background-color: linear-gradient(pink, gray);
+    background-color: linear-gradient(rgb(71, 3, 14), gray);
     padding: 30px;
     z-index: 2;
     

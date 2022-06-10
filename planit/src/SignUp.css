@@ -42,14 +42,14 @@ form {
     right:-5px;
     bottom:-5px;  
     z-index: 1;
-    background-image:linear-gradient(to bottom right, rgb(143, 141, 141), #61706e,#a5d1cf) ;
+    background-image:linear-gradient(to bottom right,#a9edf7, #99999e,#5e5e66,#a9edf7); ;
     border-radius: 40px;
  }
 
  form .formInner{
     position:relative;
     display: block;
-    background-image:linear-gradient(to bottom right, gray, #505b5a,#a8d6d4) ;
+    background-image:linear-gradient(to bottom right, #a9edf7, #99999e,#5e5e66,#a9edf7); ;
   padding: 30px;
     z-index: 2;
     border-radius: 40px;

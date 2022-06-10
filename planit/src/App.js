@@ -7,7 +7,11 @@ import Home from "./components/Home"
 
 import MakePlanit from "./components/MakePlanitPage";
 import Profile from "./components/ProfilePage";
+
 import Login from "./components/Login";
+
+import Schedule from './components/SchedulePage';
+
 
 function App() {
   return (

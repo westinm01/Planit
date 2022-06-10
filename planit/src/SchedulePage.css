@@ -1,0 +1,31 @@
+table{
+    background-color:black;
+    color:white;
+    
+}
+
+table, tr, td, th{
+    
+    border-width:1px;
+    border-color:white;
+    border-style:solid;
+    border-collapse:collapse;
+}
+
+table tr td{
+    width:60px;
+    height:20px;
+}
+
+.filled{
+    background-color:#04f393;
+}
+
+.partialfilled{
+    background-color:#00965a;
+}
+
+th{
+    max-width:150px;
+    
+}

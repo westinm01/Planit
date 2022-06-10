@@ -16,7 +16,7 @@ function Profile() {
             </p>
             
             <p>
-                <h3 id="secondtitleprofile">Previous Plan-its</h3>
+                <h3 id="secondtitleprofile">Previous Planits</h3>
                 <ul id="planitlist">
                     <input type="button" value="Psych 101 Group Meeting"/>
                     <input type="button" value="Spring Splash Planning"/>
@@ -26,16 +26,16 @@ function Profile() {
                 </ul>
             </p>
             <p>
-                <h3 id="secondtitleprofile">Plan-it Statistics</h3>
+                <h3 id="secondtitleprofile">Planit Statistics</h3>
                 <p id="statsbar" >
                     <div id="planitstatBox"> 
-                        <div id="biggerfontstat">Average Number of Plan-its Per Month: <br /></div>
+                        <div id="biggerfontstat">Average Number of Planits Per Month: <br /></div>
                          6
                     </div>
                     
                     <div id="planitstatBox">
                         <div id="biggerfontstat"> Average Response Completion Percentage: <br /></div>
-                        about 87% of people complete your plan-it
+                        about 87% of people complete your planits
                     </div>
                     
                     

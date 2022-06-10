@@ -33,6 +33,8 @@ function App() {
 
           <Route path = "/login" element = {<Login />}/>
 
+          <Route path = "/schedule" element = {<Schedule/>}/>
+
         </Routes>
     </BrowserRouter>
       {/* <header className="App-header">

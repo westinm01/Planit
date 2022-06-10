@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
 import NavBar from "./NavBar";
+import "../SchedulePage.css"
 
 
 function Schedule() {
@@ -20,8 +21,97 @@ function Schedule() {
                 Name: <input type="text" placeholder="Name"/>
                 
                 <div className="scheduletable">
-                    Insert table <br />
-                    This depends on the user input (i.e. rows depends on time restrictions and columns depend on the dates selected)
+
+                    <table>
+                        <tr>
+                            <th>Time</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                        </tr>
+                        <tr>
+                            <td>11AM</td>
+                            <td></td>
+                            <td className="filled"></td>
+                            <td className="filled"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12PM</td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td className="filled"></td>
+                            <td></td>
+                            <td className="filled"></td>
+                        </tr>
+                        <tr>
+                            <td>1PM</td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td className="filled"></td>
+                            <td className="filled"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2PM</td>
+                            <td className="filled"></td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td className="filled"></td>
+                        </tr>
+                        <tr>
+                            <td>3PM</td>
+                            <td></td>
+                            <td className="filled"></td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                            <td className="filled"></td>
+                        </tr>
+                        <tr>
+                            <td>4PM</td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                        </tr>
+                        <tr>
+                            <td>5PM</td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                            <td className="filled"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>6PM</td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7PM</td>
+                            <td></td>
+                            <td className="partialfilled"></td>
+                            <td className="partialfilled"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8PM</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
                 </div>
             </p>
 

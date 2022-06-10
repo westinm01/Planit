@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 function MakePlanit() {
     return(
@@ -9,16 +10,16 @@ function MakePlanit() {
         
         <div className="makeplanit">
             
-            <h1 id="title">Make A Plan-it! </h1>
+            <h1 id="title">Make A Planit! </h1>
             <br />
-            <p className="summary-makeplanit">It is super easy to make a plan-it. Just fill out the following fields and submit! A link will be generated for you once all fields are completed.</p>
+            <p className="summary-makeplanit">It is super easy to make a planit. Just fill out the following fields and submit! A link will be generated for you once all fields are completed.</p>
             <p >
                 
                 Event name:  <br />
                 <input type="text" className="event-name" placeholder="Event name"></input>
             </p>
             <br />
-            <p>What dates are you using for the plan it?  <br />
+            <p>What dates are you using for the planit?  <br />
                 <p className="date-style">
                     Start Date: <input type="date" /> <br />
                     End Date: <input type="date" />
@@ -76,9 +77,11 @@ function MakePlanit() {
                 <input type="text" className="users" placeholder="User's name(s)"></input>
             </p>
             <p>
-                <input type="submit" value="Submit" />
+                <Nav.Link href="/schedule" id="submitButton">Submit</Nav.Link>
+            
             </p>
-        </div>
+            </div>
+        
         </div>
     );
 }

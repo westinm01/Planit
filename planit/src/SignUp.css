@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat,sans-serif;
+    
+}
+input,button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+.SignUptest
+{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #53565A;
+}
+
+.form-center {
+    padding: 100px;
+    display:flex;
+    justify-content: center;
+    background-color: gradient aquamarine, plum; 
+  }
+
+form {
+    position:relative;
+    background-color: rgb(217, 126, 217);
+    
+}
+ form:After{
+    content: '';
+    display: none;
+    position: absolute;
+    
+    z-index: 1;
+    background-image:linear-gradient(to bottom right,#64e7fe,#7dd9f6) ;
+} 
+
+ form .formInner{
+    position:relative;
+    display: block;
+    background: linear-gradient( rgb(193, 249, 243), rgb(201, 239, 227), rgb(249, 190, 201) );
+    padding: 190px;
+    z-index: 2;
+} 
+
+
+form .formInner h2{
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+
+
+}
+form .formInner .formGroup{
+    display: block;
+    width:300px;
+    margin-bottom: 15px;
+    
+
+}
+.formInner .formGroup label{
+    display: block;
+    color:#53565A;
+    font-size: 12px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+
+}
+
+form .formInner .formGroup input{
+    display: block;
+    width: 100%;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.4s;
+    
+}
+form .formInner .formGroup input:focus{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+form .formInner input [type="submit"]
+{
+    display: inline-block;
+    padding: 10px,15px;
+    border-radius: 8px;
+    background-image:white;
+    background-size: 200%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+form .formInner input [type="submit"]:hover{
+
+    background-position: 100% 0%;
+}

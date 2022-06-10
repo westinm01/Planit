@@ -8,9 +8,13 @@ import Home from "./components/Home"
 import MakePlanit from "./components/MakePlanitPage";
 import Profile from "./components/ProfilePage";
 
+import SignUp from "./components/SignUp";
+
+
 import Login from "./components/Login";
 
 import Schedule from './components/SchedulePage';
+
 
 
 function App() {
@@ -24,7 +28,11 @@ function App() {
           <Route path = '/Home' element = {<Home />}/>
           <Route path = '/makeAPlanit' element = {<MakePlanit />}/>
           <Route path = '/profile' element = {<Profile />}/>
+
+          <Route path = "/signup" element = {<SignUp />}/>
+
           <Route path = "/login" element = {<Login />}/>
+
         </Routes>
     </BrowserRouter>
       {/* <header className="App-header">

@@ -1,5 +1,11 @@
+.container{
+  color: pink;
+
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -22,6 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -54,23 +61,24 @@
 }
 
 .home{
-  background-color: #dff7ff;
+  background-color: #b7b8b8;
 }
 
 div.home {
   
   text-align: center;
   position: relative;
-  border: 3px solid black;
-  background:linear-gradient(to bottom right,#515757,white);
-  padding: 175px 10px 175px 10px;
+  background:linear-gradient(to bottom right,#0b0a0a,rgb(54, 53, 53));
+  padding: 40px 10px 40px 10px;
+  border-radius: 40px;
   
 }
 
 .planit-name{
-  color:rgb(249, 249, 249);
+  color:rgb(232, 230, 230);
   font-family: italic;
   font-size: 100px;
+  
 }
 
 .sidebar-left{
@@ -102,6 +110,13 @@ div.home {
 .planit-logo{
   height: 40vmin;
 }
+.Top-logo{
+    top:0px;
+  height: 15vmin; 
+margin-left: auto;  
+margin-right: auto;  
+  
+}
 
 @keyframes App-logo-spin {
   from {
@@ -122,25 +137,24 @@ div.home {
 div.makeplanit {
   text-align: center;
   position: relative;
-  border: 3px solid black;
-  background-color: rgb(79, 78, 78);
-  padding: 40px 10px 40px 10px;
+  border-radius: 40px;
+  background-image:linear-gradient(to bottom right, rgb(159, 183, 183), #4e5a59,#a5d1cf);
+padding: 40px 10px 40px 10px;
   
 }
 
 p {
-  padding: 15px;
+  padding: 10px;
   font-size: 23px;
   color: white;
 }
 #planitlist {
-  
   text-align: left;
 }
 
 #title {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
   margin: 10px;
   color: white;
@@ -234,8 +248,8 @@ p.date-style {
 div.profilepage {
   text-align: center;
   position: relative;
-  border: 3px solid black;
-  background-color: rgb(70, 70, 70);
+  background-image:linear-gradient(to bottom right, rgb(160, 190, 190), #454f4e,#b0e4e1) ;
+  border-radius: 40px;
   padding: 20px;
 }
 
@@ -258,7 +272,7 @@ div.profilepage {
 }
 
 #planitstatBox {
-  border: 2px solid grey;
+  border: 2px solid rgb(190, 185, 185);
   background-color: grey;
   color: white;
   margin: 10px 0px;

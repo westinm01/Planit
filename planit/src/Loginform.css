@@ -3,8 +3,7 @@
     padding: 5px;
     box-sizing: border-box;
     font-family: montserrat,sans-serif;
-  
-    
+     
 }
 input,button {
     appearance: none;
@@ -35,8 +34,8 @@ form:after{
     right:-5px;
     bottom:-5px;
     z-index: 1;
-    background-image:linear-gradient(to bottom right, gray, #505b5a,#b0e4e1) ;
-
+    background-image:linear-gradient(to bottom right, rgb(143, 141, 141), #61706e,#a5d1cf);
+    border-radius: 40px;
 
 }
 form .form-inner{
@@ -49,10 +48,10 @@ form .form-inner{
 }
 form .form-inner h2{
     color: rgb(237, 227, 227);
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 30px;
-
+    font-style: Courier;
 
 }
 form .form-inner .form-group{
@@ -64,9 +63,10 @@ form .form-inner .form-group{
 .form-inner .form-group label{
     display: block;
     color:#d9e1ed;
-    font-size: 12px;
+    font-size: 18px;
+    font-style: Courier;
     margin-bottom: 5px;
-    margin-left: 650px;
+    margin-left: 850px;
     transition: 0.4s;
 
 }
@@ -74,9 +74,10 @@ form .form-inner .form-group{
     color:#FE4880;
 
 }
-form .form-inner .form-group input{
-    display: block;
-    margin-left: 650px;
+form .form-inner .form-group input{ 
+    display: flex;
+    margin-left: 850px;
+    margin-right: auto;
     width: 100%;
     padding: 10px 15px;
     background-color: #e9f0eb;
@@ -87,7 +88,7 @@ form .form-inner .form-group input:focus{
     box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 }
 form .form-inner input [type="submit"]
-{
+{   position: relative;
     display: inline-block;
     padding: 10px,15px;
     border-radius: 8px;

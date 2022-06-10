@@ -1,10 +1,13 @@
 import React from "react";
 import NavBar from "./NavBar";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import logo2 from '../planetVector.png';
 
 function MakePlanit() {
     return(
         <div>
+            
+    <img src={logo2} className="Top-logo" alt="Top-logo" />
             <NavBar />
             <br />
         

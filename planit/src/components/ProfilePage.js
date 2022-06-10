@@ -8,37 +8,47 @@ function Profile() {
             <br />
         <div className="profilepage">
             <br />
-            <h1 id="title"> User's Profile Page </h1>
+            <h1 id="title"> Sally's Profile Page </h1>
             <p>
                 <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" className="blankprofile"  />
+                <br /><input type="submit" id="changeprofile" value="Change Profile Picture"/>
+                
             </p>
             
             <p>
                 <h3 id="secondtitleprofile">Previous Plan-its</h3>
                 <ul id="planitlist">
-                    <li>Plan-it 1</li>
-                    <li>Plan-it 2</li>
-                    <li>Plan-it 3</li>
-                    <li>Plan-it 4</li>
+                    <input type="button" value="Psych 101 Group Meeting"/>
+                    <input type="button" value="Spring Splash Planning"/>
+                    <input type="button" value="Meet with Advisor"/>
+                    <input type="button" value="CS175 Group Meeting wk10"/>
+                    
                 </ul>
             </p>
             <p>
                 <h3 id="secondtitleprofile">Plan-it Statistics</h3>
-                <ul id="statsbar">
-                    <li>Number of plan-its per month = XXX</li>
-                    <li>Average Response Completion Percentage: <br />
-                    On average, about YYY% of people complete your plan-it.
-
-                    </li>
-                    <li>Progress bar for the user (could be about the number of plan-its made and maybe for every 10 plan-its you get an achievement?)</li>
-                </ul>
+                <p id="statsbar" >
+                    <div id="planitstatBox"> 
+                        <div id="biggerfontstat">Average Number of Plan-its Per Month: <br /></div>
+                         6
+                    </div>
+                    
+                    <div id="planitstatBox">
+                        <div id="biggerfontstat"> Average Response Completion Percentage: <br /></div>
+                        about 87% of people complete your plan-it
+                    </div>
+                    
+                    
+                </p>
             </p>
+
             <p>
                 <h3 id="secondtitleprofile">Friends</h3>
-                <ul id="friendslist">
-                    <li>friend 1</li>
-                    <li>friend 2</li>
-                    <li>friend 3</li>
+                <ul div id="friendslist">
+                    <li>Carly Peterson</li>
+                    <li>Leo Williams</li>
+                    <li>Mark Zuckerberg</li>
+                    <li>...</li>
                 </ul>
             </p>
 

@@ -123,14 +123,15 @@ div.makeplanit {
   text-align: center;
   position: relative;
   border: 3px solid black;
-  background-color: #dff7ff;
+  background-color: rgb(70, 70, 70);
   padding: 40px 10px 40px 10px;
   
 }
 
 p {
   padding: 15px;
-  font-size: 17px;
+  font-size: 23px;
+  color: white;
 }
 #planitlist {
   
@@ -142,6 +143,7 @@ p {
   font-size: 60px;
   font-weight: 500;
   margin: 10px;
+  color: white;
 }
 
 input[type=text] {
@@ -174,6 +176,21 @@ input[type=time] {
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
 }
 
+input[type=button] {
+  padding: 20px;
+  margin: 10px 50px 10px 50px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: black;
+  background-color: white;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
+  font-size: 20px;
+}
+
+input[type=button]:hover {
+  color: rgb(199, 197, 197);
+}
+
 input[type=submit] {
   padding: 10px;
   margin: 25px 0px 0px 0px;
@@ -184,9 +201,15 @@ input[type=submit] {
   
 }
 
+input[type=submit]:hover {
+  color: rgb(199, 197, 197);
+}
+
+
 .summary-makeplanit {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 25px;
+  color: white;
 }
 
 .timezone {
@@ -212,7 +235,7 @@ div.profilepage {
   text-align: center;
   position: relative;
   border: 3px solid black;
-  background-color: #dff7ff;
+  background-color: rgb(70, 70, 70);
   padding: 20px;
 }
 
@@ -220,19 +243,43 @@ div.profilepage {
   text-align: left;
   display: grid;
   list-style: circle;
-  margin: 0px 10px;
+  margin: 10px 40px;
+}
+
+#friendslist li {
+  font-size: 23px;
+  color: white;
 }
 
 #statsbar {
-  text-align: left;
-  display: grid;
-  list-style: circle;
   margin: 0px 10px;
+  width: 100%;
+
 }
+
+#planitstatBox {
+  border: 2px solid grey;
+  background-color: grey;
+  color: white;
+  margin: 10px 0px;
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+
+#biggerfontstat {
+  font-size: 23px;
+  padding-bottom: 20px;
+
+}
+
 
 #secondtitleprofile {
   text-align: left;
   display: block;
+  font-size: 30px;
+  color: white;
 }
 
 #planitlist {
@@ -252,9 +299,33 @@ p ul li {
 }
 
 #optional {
-  color: grey;
+  color: whitesmoke;
   opacity: 0.75;
   display: inline;
   font-size: 15px;
+}
+
+#changeprofile {
+  padding: 5px;
+  margin: 10px 5px 5px 5px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: black;
+  background-color: white;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.06) ;
+}
+
+div.schedulepage {
+  text-align: center;
+  position: relative;
+  border: 3px solid black;
+  background-color: rgb(70, 70, 70);
+  padding: 40px;
+}
+
+div.scheduletable {
+  margin: 20px 20px 20px 20px;
+  padding: 50px;
+  border: 2px solid white;
 }
 

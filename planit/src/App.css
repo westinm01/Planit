@@ -3,6 +3,21 @@
 
 }
 
+
+h5{
+  color: rgb(109, 98, 98); 
+  font-size: 40px;
+ 
+}
+
+body{
+  margin: 0;
+  background-color:#efeff2;
+  border-radius: 30px;
+ 
+ 
+}
+
 .App {
   text-align: center;
   
@@ -36,7 +51,7 @@
 }
 
 .navbar-collapse{
-  background-color: white;
+  background-color:#d0d0d3;
   display: inline-flex;
   position:sticky;
   top: -10px;
@@ -62,22 +77,24 @@
 
 .home{
   background-color: #b7b8b8;
+  
+  border-radius: 40px;
 }
 
 div.home {
   
   text-align: center;
   position: relative;
-  background:linear-gradient(to bottom right,#0b0a0a,rgb(54, 53, 53));
-  padding: 40px 10px 40px 10px;
+  background:linear-gradient(to bottom right,#718780,rgb(155, 181, 178),rgb(154, 238, 209));
+  padding: 80px 100px 80px 100px;
   border-radius: 40px;
   
 }
 
 .planit-name{
   color:rgb(232, 230, 230);
-  font-family: italic;
-  font-size: 100px;
+  font-style: Courier;
+  font-size: 70px;
   
 }
 
@@ -101,20 +118,23 @@ div.home {
 
 .slogan{
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-style: Courier;
   font-weight: 650;
-  font-style: italic;
-  color: white;
+  color: rgb(86, 81, 81);
 }
 
 .planit-logo{
   height: 40vmin;
+  height: 230px;
+  width: 230px;
+  border-radius: 40px;
 }
 .Top-logo{
     top:0px;
   height: 15vmin; 
 margin-left: auto;  
 margin-right: auto;  
+border-radius: 40px;
   
 }
 
@@ -154,10 +174,11 @@ p {
 
 #title {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 500;
   margin: 10px;
   color: white;
+  font-style: Courier;
 }
 
 input[type=text] {
@@ -250,7 +271,7 @@ div.profilepage {
   position: relative;
   background-image:linear-gradient(to bottom right, rgb(160, 190, 190), #454f4e,#b0e4e1) ;
   border-radius: 40px;
-  padding: 20px;
+  padding: 40px;
 }
 
 #friendslist {

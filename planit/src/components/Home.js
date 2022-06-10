@@ -1,28 +1,24 @@
 import React from "react";
 import NavBar from "./NavBar";
-import logo from '../PlanItLogo.png';
-import logo2 from '../planetVector.png';
+import logo from '../PlanItLogo2.png';
+
 
 const Home = () =>{
     return(
         <div>
-            <img src={logo2} className="Top-logo" alt="Top-logo" />
+            
             <NavBar />
             <br />
-        <div className = "home">
-        
-
-            <h3 className="planit-name"> Plan-It</h3>
+            <body>
+               <h5> Welcome to Plan-It</h5>
            
             <img src={logo} className="planit-logo" alt="logo" />
+            </body>
         <p className = "slogan"> Quick and Easy Planning</p>
+            
 
-        <div className= "sidebar-left">
-        <div className= "sidebar-right">
-
-        </div>
-        </div>
-        </div>
+        
+        
         </div>
     );
 }

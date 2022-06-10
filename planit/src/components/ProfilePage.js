@@ -1,13 +1,14 @@
 import React from "react";
 import NavBar from "./NavBar";
-import logo2 from '../planetVector.png';
+
+import logo from '../PlanItLogo2.png';
+
 
 function Profile() {
 
     return(
         <div>
-            
-        <img src={logo2} className="Top-logo" alt="Top-logo" />
+         <img src={logo} className="Top-logo" alt="Top-logo" />
             <NavBar />
             <br />
         <div className="profilepage">

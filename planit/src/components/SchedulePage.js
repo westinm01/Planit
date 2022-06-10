@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import "../SchedulePage.css"
 
 
+
 function Schedule() {
 
     return(

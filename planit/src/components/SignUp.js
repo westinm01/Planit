@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import '../SignUp.css';
 import NavBar from "./NavBar";
-import logo2 from '../planetVector.png';
+
+import logo from '../PlanItLogo2.png';
+
 
 const SignUp = ({Login, error}) =>{
     const [details, setDetails] = useState({name: "",email: "",password: ""});
@@ -14,7 +16,7 @@ const SignUp = ({Login, error}) =>{
     <div className ="contaier">
       
         <div className ="SignUpPage">
-            <img src={logo2} className="Top-logo" alt="Top-logo" />
+            <img src={logo} className="Top-logo" alt="Top-logo" />
             <NavBar />
     
      <div class="form-center">

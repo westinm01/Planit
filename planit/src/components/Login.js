@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Loginform from "./Loginform";
 
+import logo from '../PlanItLogo2.png';
+
+
 function Login() {
   const adminUser ={
     email: "admin@admin.com",
@@ -33,6 +36,7 @@ function Login() {
   } 
   return(
   <div className="app">
+    <img src={logo} className="Top-logo" alt="Top-logo" />
     {(user.email !== "")? (
       <div className="welcome">
         <h2>Welcome, <span>{user.name}</span></h2>

@@ -2,9 +2,13 @@ import React from "react";
 import NavBar from "./NavBar";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
+import logo from '../PlanItLogo2.png';
+
+
 function MakePlanit() {
     return(
         <div>
+       <img src={logo} className="Top-logo" alt="Top-logo" />
             <NavBar />
             <br />
         

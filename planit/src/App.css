@@ -1,5 +1,30 @@
+.container{
+  color: pink;
+
+}
+
+
+h5{
+  padding-top: 3em;
+  color: rgb(213, 207, 207); 
+  font-size: 40px;
+  height: 200px;
+  
+ 
+}
+
+body{
+  margin: 0;
+  background-color:#0b0b0b;
+  border-radius: 30px;
+ 
+ 
+ 
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -22,6 +47,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -29,7 +55,7 @@
 }
 
 .navbar-collapse{
-  background-color: white;
+  background-color:#070707;
   display: inline-flex;
   position:sticky;
   top: -10px;
@@ -39,7 +65,7 @@
   
   padding-left: 18px;
   padding-right: 18px;
-  color: black;
+  color: rgb(249, 244, 244);
   
 }
 
@@ -54,23 +80,26 @@
 }
 
 .home{
-  background-color: #dff7ff;
+  background-color: #b7b8b8;
+  
+  border-radius: 40px;
 }
 
 div.home {
   
   text-align: center;
   position: relative;
-  border: 3px solid black;
-  background:linear-gradient(to bottom right,#515757,white);
-  padding: 175px 10px 175px 10px;
+  background:linear-gradient(to bottom right,#718780,rgb(155, 181, 178),rgb(154, 238, 209));
+  padding: 80px 100px 80px 100px;
+  border-radius: 40px;
   
 }
 
 .planit-name{
-  color:rgb(249, 249, 249);
-  font-family: italic;
-  font-size: 100px;
+  color:rgb(232, 230, 230);
+  font-style: Courier;
+  font-size: 70px;
+  
 }
 
 .sidebar-left{
@@ -93,14 +122,24 @@ div.home {
 
 .slogan{
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-style: Courier;
   font-weight: 650;
-  font-style: italic;
-  color: white;
+  color: rgb(203, 198, 198);
 }
 
 .planit-logo{
   height: 40vmin;
+  height: 230px;
+  width: 230px;
+  border-radius: 40px;
+}
+.Top-logo{
+    top:0px;
+  height: 15vmin; 
+margin-left: auto;  
+margin-right: auto;  
+border-radius: 40px;
+  
 }
 
 @keyframes App-logo-spin {
@@ -122,28 +161,28 @@ div.home {
 div.makeplanit {
   text-align: center;
   position: relative;
-  border: 3px solid black;
-  background-color: rgb(79, 78, 78);
-  padding: 40px 10px 40px 10px;
+  border-radius: 40px;
+  background-image:linear-gradient(to bottom right,#a9edf7, #99999e,#5e5e66,#a9edf7);
+padding: 40px 10px 40px 10px;
   
 }
 
 p {
-  padding: 15px;
+  padding: 10px;
   font-size: 23px;
   color: white;
 }
 #planitlist {
-  
   text-align: left;
 }
 
 #title {
   text-align: center;
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 500;
   margin: 10px;
   color: white;
+  font-style: Courier;
 }
 
 input[type=text] {
@@ -207,7 +246,7 @@ input[type=submit]:hover {
 
 
 .summary-makeplanit {
-  font-size: 17px;
+  font-size: 22px;
   margin-bottom: 25px;
   color: white;
 }
@@ -227,16 +266,16 @@ input[type=submit]:hover {
 }
 
 p.date-style {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0px;
 }
 
 div.profilepage {
   text-align: center;
   position: relative;
-  border: 3px solid black;
-  background-color: rgb(70, 70, 70);
-  padding: 20px;
+  background-image:linear-gradient(to bottom right, #a9edf7,#99999e,#5e5e66,#a9edf7);;
+  border-radius: 40px;
+  padding: 40px;
 }
 
 #friendslist {
@@ -258,7 +297,7 @@ div.profilepage {
 }
 
 #planitstatBox {
-  border: 2px solid grey;
+  border: 2px solid rgb(190, 185, 185);
   background-color: grey;
   color: white;
   margin: 10px 0px;
@@ -319,8 +358,9 @@ div.schedulepage {
   text-align: center;
   position: relative;
   border: 3px solid black;
-  background-color: rgb(70, 70, 70);
+  background:linear-gradient(to bottom right,#718780,rgb(155, 181, 178),rgb(154, 238, 209));
   padding: 40px;
+  border-radius: 40px;
 }
 
 div.scheduletable {

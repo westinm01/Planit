@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import '../SignUp.css';
 import NavBar from "./NavBar";
 
+import logo from '../PlanItLogo2.png';
+
+
 const SignUp = ({Login, error}) =>{
     const [details, setDetails] = useState({name: "",email: "",password: ""});
     
@@ -10,8 +13,10 @@ const SignUp = ({Login, error}) =>{
         Login(details);
     }
     return(
-    
+    <div className ="contaier">
+      
         <div className ="SignUpPage">
+            <img src={logo} className="Top-logo" alt="Top-logo" />
             <NavBar />
     
      <div class="form-center">
@@ -42,6 +47,7 @@ const SignUp = ({Login, error}) =>{
         </form>
         </div>
       </div>
+    </div>  
     )
 };
 export default SignUp;

@@ -1,16 +1,21 @@
 import React from "react";
 import NavBar from "./NavBar";
+
+import logo from '../PlanItLogo2.png';
+
+
 function Profile() {
 
     return(
         <div>
+         <img src={logo} className="Top-logo" alt="Top-logo" />
             <NavBar />
             <br />
         <div className="profilepage">
             <br />
             <h1 id="title"> Sally's Profile Page </h1>
             <p>
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" className="blankprofile"  />
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="profile" className="blankprofile"  />
                 <br /><input type="submit" id="changeprofile" value="Change Profile Picture"/>
                 
             </p>

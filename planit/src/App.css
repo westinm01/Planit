@@ -358,8 +358,9 @@ div.schedulepage {
   text-align: center;
   position: relative;
   border: 3px solid black;
-  background-color: rgb(70, 70, 70);
+  background:linear-gradient(to bottom right,#718780,rgb(155, 181, 178),rgb(154, 238, 209));
   padding: 40px;
+  border-radius: 40px;
 }
 
 div.scheduletable {

@@ -18,7 +18,7 @@ input,button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #53565A;
+    background-color: #e9ecf1;
 }
 
 .form-center {
@@ -45,14 +45,14 @@ form {
  form .formInner{
     position:relative;
     display: block;
-    background: linear-gradient( rgb(193, 249, 243), rgb(201, 239, 227), rgb(249, 190, 201) );
+    background: linear-gradient( rgb(59, 62, 62), rgb(177, 184, 182), rgb(221, 236, 238) );
     padding: 190px;
     z-index: 2;
 } 
 
 
 form .formInner h2{
-    color: #888;
+    color: rgb(252, 248, 248);
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -69,7 +69,7 @@ form .formInner .formGroup{
 }
 .formInner .formGroup label{
     display: block;
-    color:#53565A;
+    color:#f0f3f7;
     font-size: 12px;
     margin-bottom: 5px;
     transition: 0.4s;
